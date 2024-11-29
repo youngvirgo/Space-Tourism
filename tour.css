@@ -371,7 +371,7 @@ body{
     body{
         max-width: 100vw;
         min-height: 100vh;
-        background-image: url(./assets/background-home-tablet.jpg);
+        background-image: url(./assets/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -487,7 +487,7 @@ body{
     body{
         max-width: 100vw;
         min-height: 100vh;
-        background-image: url(./assets/background-home-tablet.jpg);
+        background-image: url(./assets/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -607,7 +607,7 @@ body{
     body{
         max-width: 100vw;
         min-height: 100vh;
-        background-image: url(./assets/background-home-tablet.jpg);
+        background-image: url(./assets/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -727,14 +727,15 @@ body{
     body{
         max-width: 100vw;
         min-height: 100vh;
-        background-image: url(./assets/background-home-tablet.jpg);
+        background-image: url(./assets/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     #headContainer{
         width: 100%;
-        min-height: 7rem;
+        height: auto;
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
@@ -746,12 +747,13 @@ body{
     }
     .navContainer2{
         display: block;
-        height: auto;
-        position: relative;
+        height: 300px;
+        position: absolute;
+        left: 10%;
     }
     .ham{
         
-        margin: 25px 40px 0 0;
+        margin: 25px 40px 0 250px;
     }
     .ex{
         position: relative;
