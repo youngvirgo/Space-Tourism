@@ -1,0 +1,843 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./assets/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#headContainer{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 50px 0 0 50px;
+}
+.headLine{
+    width: 40%;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    top: 65%;left: 4%;
+    opacity: 0.3;
+}
+.navContainer{
+    width: 50%;
+    height: 70%;
+    
+    margin-top: 33.5px;
+   
+    position: relative;
+    box-shadow: 0;
+}
+.navContainer2{
+    display: none;
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    opacity: 0.1;
+   
+}
+/* .blurre{
+    width: 100%;
+    height: 100%;
+    fill: white;
+    
+    
+} */
+.navbar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+.navbar a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    position: relative;
+}
+.navbar a span{
+    color: rgb(206, 202, 202);
+}
+.navbar a .pp{
+    line-height: 75px;
+}
+.navbar a .pp::before{
+    content: "";
+    width: 67px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+}
+.navbar a .pk{
+    line-height: 75px;
+}
+.navbar a .pk::before{
+    content: "";
+    width: 125px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+}
+.navbar a .pq{
+    line-height: 75px;
+}
+.navbar a .pq::before{
+    content: "";
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+}
+#homebody{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.bodywriteup{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bodywriteup .p1{
+    color: rgba(208, 214, 249, 1);font-size: 20px;margin-right: 10px;
+}
+.bodywriteup .p2{
+    color: white;font-size: 120px;
+    margin: 20px 0 20px 0;
+}
+.bodywriteup .p4{
+    display: none;
+}
+
+.bodyexplore{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 70%;top: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyexplore p{
+    font-size: 20px;
+    color: rgba(11, 13, 23, 1);
+}
+
+@media (max-width:1024px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        width: 85%;
+        height: 90%;
+        position: relative;
+        bottom: 35px;
+        box-shadow: 0;
+    }
+    .navContainer2{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 90px;
+    }
+    .navbar a .pp{
+        line-height: 95px;
+    }
+    .navbar a .pk{
+        line-height: 95px;
+    }
+    .navbar a .pq{
+        line-height: 95px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 35px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        left: 30%;top: 63%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 50px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 30px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 200px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        color: white;font-size: 25px;
+        padding: 20px 0 5px 0;
+        
+    }
+}
+@media (max-width:850px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        width: 85%;
+        height: 90%;
+        position: relative;
+        bottom: 35px;
+        box-shadow: 0;
+    }
+    .navContainer2{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 40px;
+    }
+    .navbar a .pp{
+        line-height: 95px;
+    }
+    .navbar a .pk{
+        line-height: 95px;
+    }
+    .navbar a .pq{
+        line-height: 95px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 35px;
+        right: 10px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        left: 25%;top: 63%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 50px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 30px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 200px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        color: white;font-size: 20px;
+        padding: 20px 0 5px 0;
+        
+    }
+}
+@media (max-width:699px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        left: 30%;top: 70%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 25px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 23px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 130px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        color: white;font-size: 17px;
+        padding: 20px 0 5px 0;
+        
+    }
+}
+@media (max-width:530px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        left: 27%;top: 70%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 25px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 17px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 110px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        display: none;
+    }
+    .bodywriteup .p4{
+        display: block;
+        color: white;font-size: 17px;
+        padding: 20px 0 5px 0;
+        
+    }
+}
+@media (max-width:430px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        left: 27%;top: 70%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 25px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 14px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 80px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        display: none;
+    }
+    .bodywriteup .p4{
+        display: block;
+        color: white;font-size: 14px;
+        padding: 20px 0 5px 0;
+    }
+}
+@media (max-width:380px) {
+    body{
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url(./assets/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #headContainer{
+        width: 100%;
+        min-height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #homebody{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        
+    }
+    .bodywriteup{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+    }
+    .bodyexplore{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        left: 24%;top: 70%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyexplore p{
+        font-size: 25px;
+        color: rgba(11, 13, 23, 1);
+    }
+    .bodywriteup .p1{
+        position: absolute;
+        top: 100px;
+        color: rgba(208, 214, 249, 1);font-size: 14px;margin-bottom: 30px;
+    }
+    .bodywriteup .p2{
+        color: white;font-size: 80px;
+        margin: 20px 0 20px 0;
+    }
+    .bodywriteup .p3{
+        display: none;
+    }
+    .bodywriteup .p4{
+        display: block;
+        color: white;font-size: 14px;
+        padding: 20px 0 5px 0;
+    }
+}

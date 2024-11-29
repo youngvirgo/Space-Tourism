@@ -1,0 +1,116 @@
+body{
+    background-image: url(./assets/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bodyDestination{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.desImage{
+    
+    display: flex;
+    flex-direction: column;
+}
+.desImage p{
+    margin: 20px 0 0 225px;
+}
+.desImage img{
+    width: 370px;
+    height: 370px;
+    margin: 60px 0 0 160px;
+}
+.desContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desnavBar{
+    width: 50%;
+    height: 40px;
+    display: flex;justify-content: end;
+    align-items: center;
+    gap: 28px;
+    position: relative;top: 40px;
+}
+.desnavBar a{
+    margin-right: 14px;
+    text-decoration: none;
+    color: rgba(208, 214, 249, 1);
+    position: relative;
+}
+.desnavBar a .moonNav{
+    line-height: 40px;
+}
+.lineAfter::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+}
+.desMoontext{
+    width: 70%;
+    height: 400px;
+    position: relative;top: 40px;
+    
+}
+.planetInfo{
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    flex-direction: row;
+}
+.planetDist{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planetTime{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lamoon{
+    font-size: 60px;color: white;
+    margin: 30px 0 30px 0;
+}
+.mars{
+    display: none;
+}
+.desMarstext{
+    width: 70%;
+    height: 400px;
+    position: relative;top: 40px;
+    display: none;
+    
+}
+.europa{
+    display: none;
+}
+.desEuropatext{
+    width: 70%;
+    height: 400px;
+    position: relative;top: 40px;
+    display: none;
+}
+.titan{
+    display: none;
+}
+.desTitantext{
+    width: 70%;
+    height: 400px;
+    position: relative;top: 40px;
+    display: none;
+}
+
