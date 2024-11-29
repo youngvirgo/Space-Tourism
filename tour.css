@@ -229,35 +229,35 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 20px;
     }
     .bodyexplore{
-        width: 400px;
-        height: 400px;
+        width: 220px;
+        height: 220px;
         background-color: white;
         position: absolute;
-        left: 30%;top: 63%;
+        left: 35%;top: 63%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 50px;
+        font-size: 30px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 30px;margin-bottom: 30px;
+        top: 10px;
+        color: rgba(208, 214, 249, 1);font-size: 23px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
-        color: white;font-size: 200px;
-        margin: 20px 0 20px 0;
+        color: white;font-size: 150px;
+        margin: 30px 5px 20px 0;
     }
     .bodywriteup .p3{
-        color: white;font-size: 25px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 20px;
+        padding: 5px 0 5px 0;
         
     }
 }
@@ -335,35 +335,35 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 30px;
     }
     .bodyexplore{
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
         background-color: white;
         position: absolute;
-        left: 25%;top: 63%;
+        left: 35%;top: 63%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 50px;
+        font-size: 30px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 30px;margin-bottom: 30px;
+        top: 1px;
+        color: rgba(208, 214, 249, 1);font-size: 22px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
-        color: white;font-size: 200px;
-        margin: 20px 0 20px 0;
+        color: white;font-size: 150px;
+        margin: 20px 0 2px 0;
     }
     .bodywriteup .p3{
-        color: white;font-size: 20px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 16px;
+        padding: 5px 0 5px 0;
         
     }
 }
@@ -451,35 +451,35 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 30px;
     }
     .bodyexplore{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         background-color: white;
         position: absolute;
-        left: 30%;top: 70%;
+        left: 33%;top: 59%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 25px;
+        font-size: 22px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 23px;margin-bottom: 30px;
+        top: 15px;
+        color: rgba(208, 214, 249, 1);font-size: 20px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
-        color: white;font-size: 130px;
-        margin: 20px 0 20px 0;
+        color: white;font-size: 100px;
+        margin: 3px 0 5px 0;
     }
     .bodywriteup .p3{
-        color: white;font-size: 17px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 15px;
+        padding: 5px 0 5px 0;
         
     }
 }
@@ -567,39 +567,39 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 30px;
     }
     .bodyexplore{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         background-color: white;
         position: absolute;
-        left: 27%;top: 70%;
+        left: 31%;top: 65%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 25px;
+        font-size: 20px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 17px;margin-bottom: 30px;
+        top: 10px;
+        color: rgba(208, 214, 249, 1);font-size: 15px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
-        color: white;font-size: 110px;
-        margin: 20px 0 20px 0;
+        color: white;font-size: 80px;
+        margin: 5px 0 5px 0;
     }
     .bodywriteup .p3{
         display: none;
     }
     .bodywriteup .p4{
         display: block;
-        color: white;font-size: 17px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 15px;
+        padding: 5px 0 5px 0;
         
     }
 }
@@ -687,39 +687,40 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 30px;
     }
     .bodyexplore{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         background-color: white;
         position: absolute;
-        left: 27%;top: 70%;
+        left: 31%;top: 65%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 25px;
+        font-size: 18px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 14px;margin-bottom: 30px;
+        top: 10px;
+        color: rgba(208, 214, 249, 1);font-size: 15px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
         color: white;font-size: 80px;
-        margin: 20px 0 20px 0;
+        margin: 5px 0 5px 0;
     }
     .bodywriteup .p3{
         display: none;
     }
     .bodywriteup .p4{
         display: block;
-        color: white;font-size: 14px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 15px;
+        padding: 5px 0 5px 0;
+        
     }
 }
 @media (max-width:380px) {
@@ -806,38 +807,39 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 60px;
+        top: 30px;
     }
     .bodyexplore{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         background-color: white;
         position: absolute;
-        left: 24%;top: 70%;
+        left: 27%;top: 65%;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .bodyexplore p{
-        font-size: 25px;
+        font-size: 18px;
         color: rgba(11, 13, 23, 1);
     }
     .bodywriteup .p1{
         position: absolute;
-        top: 100px;
-        color: rgba(208, 214, 249, 1);font-size: 14px;margin-bottom: 30px;
+        top: 10px;
+        color: rgba(208, 214, 249, 1);font-size: 15px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
         color: white;font-size: 80px;
-        margin: 20px 0 20px 0;
+        margin: 5px 0 5px 0;
     }
     .bodywriteup .p3{
         display: none;
     }
     .bodywriteup .p4{
         display: block;
-        color: white;font-size: 14px;
-        padding: 20px 0 5px 0;
+        color: white;font-size: 15px;
+        padding: 5px 0 5px 0;
+        
     }
 }
