@@ -39,6 +39,15 @@ body{
     height: 30vh;
     margin-top: 120px;
 }
+.crewp1{
+    margin: 20px 0 20px 150px;font-size: 25px;color: white;
+}
+.crewp2{
+    margin: 20px 0 20px 150px;font-size: 40px;color: white;
+}
+.crewp3{
+    margin-left: 150px;color: white;
+}
 .crewcontentradio{
     width: 30%;
     height: 20px;
@@ -73,4 +82,846 @@ body{
 }
 .crewFour{
     display: none;
+}
+@media (max-width:1024px) {
+    body{
+        background-image: url(./assets/background-crew-tablet.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        width: 85%;
+        height: 90%;
+        position: relative;
+        bottom: 35px;
+        box-shadow: 0;
+    }
+    .navContainer2{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 90px;
+    }
+    .navbar a .pp{
+        line-height: 95px;
+    }
+    .navbar a .pk{
+        line-height: 95px;
+    }
+    .navbar a .pq{
+        line-height: 95px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #bodyCrew{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #crewContent{
+        width: 100%;
+        height: 60vh;
+    }
+    .crewcontentheader{
+        width: 30%;
+        height: 30px;
+        margin: 20px 150px 0 0;
+    }
+    .crewcontenttext{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 30%;
+        height: 20px;
+        margin: 60px 0 0 370px;
+    }
+    .crewImage{
+        width: 100%;
+        height: 60vh; 
+    }
+    .crewImage img{
+        width: 30%;
+        height: 90%;
+        margin: 50px 0 0 380px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+}
+@media (max-width:850px) {
+    body{
+        background-image: url(./assets/background-crew-tablet.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .navContainer{
+        width: 85%;
+        height: 90%;
+        position: relative;
+        bottom: 35px;
+        box-shadow: 0;
+    }
+    .navContainer2{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 40px;
+    }
+    .navbar a .pp{
+        line-height: 95px;
+    }
+    .navbar a .pk{
+        line-height: 95px;
+    }
+    .navbar a .pq{
+        line-height: 95px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #bodyCrew{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #crewContent{
+        width: 100%;
+        height: 60vh;
+    }
+    .crewcontentheader{
+        width: 30%;
+        height: 30px;
+        margin: 20px 150px 0 0;
+    }
+    .crewcontenttext{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 30%;
+        height: 20px;
+        margin: 60px 0 0 300px;
+    }
+    .crewImage{
+        width: 100%;
+        height: 60vh; 
+    }
+    .crewImage img{
+        width: 30%;
+        height: 90%;
+        margin: 50px 0 0 300px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+}
+@media (max-width:699px) {
+    body{
+        height: auto;
+        background-image: url(./assets/background-crew-tablet.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #bodyCrew{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #crewContent{
+        width: 100%;
+        height: 60vh;
+    }
+    .crewcontentheader{
+        width: 50%;
+        height: 30px;
+        margin: 20px 1px 0 0;
+    }
+    .crewcontenttext{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 30%;
+        height: 20px;
+        margin: 60px 0 0 250px;
+    }
+    .crewImage{
+        width: 100%;
+        height: auto; 
+    }
+    .crewImage img{
+        width: 50%;
+        height: 50vh;
+        margin: 50px 0 0 200px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 50px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 50px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        margin-left: 50px;color: white;
+        justify-self: center;
+    }
+}
+@media (max-width:550px) {
+    body{
+        height: auto;
+        background-image: url(./assets/background-crew-tablet.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #headContainer{
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headLine{
+       display: none;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .navContainer{
+        display: none;
+    }
+    .navContainer2{
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    .ham{
+        
+        margin: 25px 40px 0 0;
+    }
+    .ex{
+        position: relative;
+        left: 270px;
+        bottom: 290px;
+    }
+    .navbar2{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px 0 0 0;
+        display: none;
+    }
+    .navbar2 a{
+        color: rgb(15, 15, 15);font-size: 30px;
+        text-decoration: none;
+    }
+    .navbar2 a .pp{
+        margin: 0 0 0 20px;
+    }
+    .navbar2 a .pc{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pb{
+        margin: 50px 0 0 20px;
+    }
+    .navbar2 a .pa{
+        margin: 50px 0 0 20px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    #bodyCrew{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #crewContent{
+        width: 100%;
+        height: 60vh;
+    }
+    .crewcontentheader{
+        width: 50%;
+        height: 30px;
+        margin: 20px 1px 0 0;
+    }
+    .crewcontenttext{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 40px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 40px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        font-size: 14px;
+        margin-left: 40px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 25%;
+        height: 20px;
+        margin: 60px 0 0 200px;
+    }
+    .crewImage{
+        width: 100%;
+        height: auto; 
+    }
+    .crewImage img{
+        width: 50%;
+        height: 50vh;
+        margin: 50px 0 0 150px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 40px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 40px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        font-size: 14px;
+        margin-left: 40px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 40px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 40px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        margin-left: 40px;color: white;
+        justify-self: center;font-size: 14px;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 40px;font-size: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 40px;font-size: 40px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        margin-left: 40px;color: white;
+        justify-self: center;font-size: 14px;
+    }
+}
+@media (max-width:450px){
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 25%;
+        height: 20px;
+        margin: 20px 0 0 170px;
+    }
+    .crewImage{
+        width: 100%;
+        height: auto; 
+    }
+    .crewImage img{
+        width: 50%;
+        height: 50vh;
+        margin: 50px 0 0 130px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+}
+@media (max-width:384px){
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+    }
+    .crewcontenttext .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext .crewp3{
+        font-size: 10px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+    
+    .crewcontentradio{
+        width: 25%;
+        height: 20px;
+        margin: 20px 0 0 130px;
+    }
+    .crewImage{
+        width: 100%;
+        height: auto; 
+    }
+    .crewImage img{
+        width: 50%;
+        height: 50vh;
+        margin: 50px 0 0 120px;
+    }
+    .crewcontenttext2{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+        
+    }
+    .crewcontenttext2 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext2 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+   
+    .crewcontenttext3{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext3 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext3 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4{
+        width: 100%;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .crewcontenttext4 .crewp1{
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp2{
+        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        justify-self: center;
+    }
+    .crewcontenttext4 .crewp3{
+        font-size: 12px;
+        margin-left: 25px;color: white;
+        justify-self: center;
+    }
 }
