@@ -105,9 +105,6 @@ body{
         bottom: 35px;
         box-shadow: 0;
     }
-    .navContainer2{
-        display: none;
-    }
     .navbar{
         width: 100%;
         height: 100%;
@@ -206,10 +203,7 @@ body{
         width: 100%;
         height: 50vh;
         margin: 20px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .crewcontenttext3 .crewp1{
         margin: 20px 0 20px 50px;font-size: 25px;color: white;
@@ -263,9 +257,7 @@ body{
         bottom: 35px;
         box-shadow: 0;
     }
-    .navContainer2{
-        display: none;
-    }
+   
     .navbar{
         width: 100%;
         height: 100%;
@@ -364,10 +356,6 @@ body{
         width: 100%;
         height: 50vh;
         margin: 20px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .crewcontenttext3 .crewp1{
         margin: 20px 0 20px 50px;font-size: 25px;color: white;
@@ -423,43 +411,6 @@ body{
     }
     .navContainer{
         display: none;
-    }
-    .navContainer2{
-        display: block;
-        height: auto;
-        position: relative;
-    }
-    .ham{
-        
-        margin: 25px 40px 0 0;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
     }
     .logo img{
         width: 100%;
@@ -534,10 +485,6 @@ body{
         width: 100%;
         height: 50vh;
         margin: 20px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .crewcontenttext3 .crewp1{
         margin: 20px 0 20px 50px;font-size: 25px;color: white;
@@ -568,6 +515,10 @@ body{
         margin-left: 50px;color: white;
         justify-self: center;
     }
+    .dropdownContent{
+        width: 300px;
+        left: 380px;
+    }
 }
 @media (max-width:550px) {
     body{
@@ -594,43 +545,7 @@ body{
     .navContainer{
         display: none;
     }
-    .navContainer2{
-        display: block;
-        height: auto;
-        position: relative;
-    }
-    .ham{
-        
-        margin: 25px 40px 0 0;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
-    }
+    
     .logo img{
         width: 100%;
         height: 100%; 
@@ -706,10 +621,6 @@ body{
         width: 100%;
         height: 50vh;
         margin: 20px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .crewcontenttext3 .crewp1{
         margin: 20px 0 20px 40px;font-size: 25px;color: white;
@@ -739,6 +650,10 @@ body{
     .crewcontenttext4 .crewp3{
         margin-left: 40px;color: white;
         justify-self: center;font-size: 14px;
+    }
+    .dropdownContent{
+        width: 300px;
+        left: 280px;
     }
 }
 @media (max-width:450px){
@@ -832,6 +747,10 @@ body{
         margin-left: 25px;color: white;
         justify-self: center;
     }
+    .dropdownContent{
+        width: 300px;
+        left: 180px;
+    }
 }
 @media (max-width:384px){
     .logo{
@@ -840,16 +759,19 @@ body{
         position: relative;
         bottom: 20px;
     }
+    .crewcontentheader{
+        font-size: 13px;justify-self: center;
+    }
     .crewcontenttext .crewp1{
-        margin: 20px 0 20px 25px;font-size: 20px;color: white;
+        margin: 20px 0 20px 25px;font-size: 15px;color: white;
         justify-self: center;
     }
     .crewcontenttext .crewp2{
-        margin: 20px 0 20px 25px;font-size: 30px;color: white;
+        margin: 20px 0 20px 25px;font-size: 20px;color: white;
         justify-self: center;
     }
     .crewcontenttext .crewp3{
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 25px;color: white;
         justify-self: center;
     }
@@ -923,5 +845,9 @@ body{
         font-size: 12px;
         margin-left: 25px;color: white;
         justify-self: center;
+    }
+    .dropdownContent{
+        width: 300px;
+        left: 80px;
     }
 }

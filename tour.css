@@ -4,7 +4,7 @@
 }
 body{
     max-width: 100vw;
-    min-height: 100vh;
+    min-height: auto;
     background-image: url(./assets/background-home-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -39,9 +39,6 @@ body{
     position: relative;
     box-shadow: 0;
 }
-.navContainer2{
-    display: none;
-}
 .blur{
     width: 100%;
     height: 100%;
@@ -50,13 +47,7 @@ body{
     opacity: 0.1;
    
 }
-/* .blurre{
-    width: 100%;
-    height: 100%;
-    fill: white;
-    
-    
-} */
+
 .navbar{
     width: 100%;
     height: 100%;
@@ -112,6 +103,7 @@ body{
     bottom: 0;
     right: 0;
 }
+
 #homebody{
     width: 100%;
     height: 80vh;
@@ -154,6 +146,41 @@ body{
 .bodyexplore p{
     font-size: 20px;
     color: rgba(11, 13, 23, 1);
+}
+.dropdown{
+    display: none;
+    position: relative;
+    top: 30px;right: 20px;
+    color: rgb(247, 246, 246);
+}
+.dropdownContent{
+    display: none;
+  position: fixed;
+  top: 15px;left: 375.9px;
+  background-color: white;
+  width: 250px;
+  height: 100vh;
+  padding-left: 10px;
+  z-index: 1;
+}
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.close{
+    position: relative;
+    left: 20px;bottom: 200px;
+}
+.dropdownContent a span{
+    color: rgb(148, 147, 147);
+}
+.droptext{
+    width: 100%;
+    height: 100%;
+    
 }
 
 @media (max-width:1024px) {
@@ -259,6 +286,9 @@ body{
         color: white;font-size: 20px;
         padding: 5px 0 5px 0;
         
+    }
+    .ham{
+        display: none;
     }
 }
 @media (max-width:850px) {
@@ -366,6 +396,9 @@ body{
         padding: 5px 0 5px 0;
         
     }
+    .ham{
+        display: none;
+    }
 }
 @media (max-width:699px) {
     body{
@@ -388,43 +421,8 @@ body{
     .navContainer{
         display: none;
     }
-    .navContainer2{
-        display: block;
-        height: auto;
-        position: relative;
-    }
-    .ham{
-        
-        margin: 25px 40px 0 0;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
-    }
+    
+ 
     .logo{
         width: 60px;
         height: 60px;
@@ -482,6 +480,9 @@ body{
         padding: 5px 0 5px 0;
         
     }
+    .dropdown{
+        display: block;
+    }
 }
 @media (max-width:530px) {
     body{
@@ -504,42 +505,12 @@ body{
     .navContainer{
         display: none;
     }
-    .navContainer2{
+    .dropdown{
         display: block;
-        height: auto;
-        position: relative;
     }
-    .ham{
-        
-        margin: 25px 40px 0 0;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
+    .dropdownContent{
+        left: 260.9px;
+      
     }
     .logo{
         width: 60px;
@@ -624,42 +595,12 @@ body{
     .navContainer{
         display: none;
     }
-    .navContainer2{
+    .dropdown{
         display: block;
-        height: auto;
-        position: relative;
     }
-    .ham{
-        
-        margin: 25px 40px 0 0;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
+    .dropdownContent{
+        left: 170.9px;
+      
     }
     .logo{
         width: 60px;
@@ -745,43 +686,12 @@ body{
     .navContainer{
         display: none;
     }
-    .navContainer2{
+    .dropdown{
         display: block;
-        height: 300px;
-        position: absolute;
-        left: 10%;
     }
-    .ham{
-        
-        margin: 25px 40px 0 250px;
-    }
-    .ex{
-        position: relative;
-        left: 270px;
-        bottom: 290px;
-    }
-    .navbar2{
-        width: 300px;
-        height: 300px;
-        background-color: white;
-        margin: 30px 0 0 0;
-        display: none;
-    }
-    .navbar2 a{
-        color: rgb(15, 15, 15);font-size: 30px;
-        text-decoration: none;
-    }
-    .navbar2 a .pp{
-        margin: 0 0 0 20px;
-    }
-    .navbar2 a .pc{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pb{
-        margin: 50px 0 0 20px;
-    }
-    .navbar2 a .pa{
-        margin: 50px 0 0 20px;
+    .dropdownContent{
+        left: 100.9px;
+      
     }
     .logo{
         width: 60px;
@@ -829,10 +739,10 @@ body{
     .bodywriteup .p1{
         position: absolute;
         top: 10px;
-        color: rgba(208, 214, 249, 1);font-size: 15px;margin-bottom: 30px;
+        color: white;font-size: 12px;margin-bottom: 30px;
     }
     .bodywriteup .p2{
-        color: white;font-size: 80px;
+        color: white;font-size: 50px;
         margin: 5px 0 5px 0;
     }
     .bodywriteup .p3{
@@ -840,7 +750,7 @@ body{
     }
     .bodywriteup .p4{
         display: block;
-        color: white;font-size: 15px;
+        color: white;font-size: 11px;
         padding: 5px 0 5px 0;
         
     }
