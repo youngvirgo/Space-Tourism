@@ -12,7 +12,6 @@ body{
 .techContent{
     width: 50%;
     height: 100%;
-    background-color: aqua;
 }
 .techImage{
     width: 50%;
@@ -36,12 +35,15 @@ body{
     width: 100%;
     height: 50vh;
     margin-top: 120px;
-    background-color: red;
     display: grid;
     grid-template-columns: 30% 70%;
 }
 .techtextnum{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     justify-items: end;
+    align-items: end;
 }
 .textcontainer{
     width: 100%;
@@ -67,42 +69,141 @@ body{
 .techtwo{
     display: none;
 }
+.phead1{
+    margin: 0 0 20px 20px;font-size: 20px;color: rgb(153, 149, 149);
+}
+.phead2{
+    margin: 0 0 20px 20px;font-size: 30px;color: rgb(245, 243, 243);
+}
+.pbody{
+    margin: 0 0 0 20px;color: rgb(238, 232, 232);
+}
+
 @media (max-width:1024px) {
     body{
         min-height: 100vh;
     }
     #bodyTech{
-        width: 100%;
-        height: 100vh;
+        width: 100vw;
+        height: 150vh;
         display: grid;
         grid-template-rows: 60% 40%;
     }
     .techContent{
-        width: 50%;
+        width: 100%;
         height: 100%;
-        background-color: aqua;
         grid-row: 2;
     }
     #techcontenttext{
         width: 100%;
         height: 60vh;
-        margin-top: 120px;
-        
-        display: grid;
-        grid-template-rows: 30% 70%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 150px;
     }
     .techImage{
-        width: 50%;
+        width: 100%;
         height: 100%;
         grid-row: 1;
         justify-self: center;
 
     }
     .techImage img{
-        margin: 0 0 0 70px;
+        width: 100%;
+        margin: 30px 0 0 70px;
+        position: relative;
+        top: 10px;
     }
     .techcontentheader{
         position: relative;
-        bottom: 340px;right: 50px;
+        bottom: 500px;right: 140px;
     }
+    .techtextnum{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+    .techtextcontent p{
+        justify-self: center;
+        align-self: center;
+    }
+    .techtextcontent2 p{
+        justify-self: center;
+        align-self: center;
+    }
+    .techtextcontent3 p{
+        justify-self: center;
+        align-self: center;
+    }
+    
+   
+}
+@media (max-width:699px) {
+    .techcontentheader{
+        position: relative;
+        bottom: 500px;right: 100px;
+    }
+    .dropdown{
+        display: block;
+    }
+    .dropdownContent{
+        width: 350px;
+        left: 330.9px;
+      
+    }
+    
+   
+}
+@media (max-width:499px) {
+    .techcontentheader{
+        position: relative;
+        bottom: 500px;right: 40px;
+        font-size: 11.5px;
+    }
+    .dropdown{
+        display: block;
+    }
+    .dropdownContent{
+        width: 355px;
+        left: 145.9px;
+    }
+    .phead1{
+        font-size: 17px;
+    }
+    .phead2{
+        font-size: 16px;
+    }
+    .pbody{
+       font-size: 12px;
+    }
+    
+    
+}
+@media (max-width:330px) {
+    .techcontentheader{
+        position: relative;
+        bottom: 500px;right: 10px;
+        font-size: 10px;
+    }
+    .dropdown{
+        display: block;
+    }
+    .dropdownContent{
+        width: 355px;
+        left: 105.9px;
+    }
+    .phead1{
+        font-size: 14px;
+    }
+    .phead2{
+        font-size: 14px;
+
+    }
+    .pbody{
+       font-size: 8px;
+    }
+   
+    
 }
